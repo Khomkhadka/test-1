@@ -1,0 +1,153 @@
+/* Base Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+  }
+  
+  .app-container {
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 1200px;
+    text-align: center;
+  }
+  
+  .header {
+    margin-top: 45px;
+    margin-bottom: 20px;
+  }
+  
+  .header h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  
+  .header p {
+    margin: 10px 0;
+    font-size: 1.1rem;
+    color: #555;
+  }
+  
+  .button-group {
+    margin-top: 20px;
+  }
+  
+  .shop-btn,
+  .learn-btn {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    margin: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .learn-btn {
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #000;
+  }
+  
+  .shop-btn:hover,
+  .learn-btn:hover {
+    opacity: 0.8;
+  }
+  
+  .image-placeholder {
+    background-color: #ccc;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    color: #777;
+    margin-top: 20px;
+  }
+  
+  /* Responsive Design */
+  
+  /* Large screens (desktops) */
+  @media (min-width: 1025px) {
+    .header h1 {
+      font-size: 3rem;
+    }
+  
+    .header p {
+      font-size: 1.2rem;
+    }
+  
+    .shop-btn,
+    .learn-btn {
+      font-size: 1.1rem;
+      padding: 14px 28px;
+    }
+  
+    .image-placeholder {
+      height: 350px;
+    }
+  }
+  
+  /* Medium screens (tablets) */
+  @media (max-width: 1024px) {
+    .header h1 {
+      font-size: 2rem;
+    }
+  
+    .header p {
+      font-size: 1rem;
+    }
+  
+    .shop-btn,
+    .learn-btn {
+      font-size: 1rem;
+      padding: 10px 20px;
+    }
+  
+    .image-placeholder {
+      height: 250px;
+    }
+  }
+  
+  /* Small screens (phones) */
+  @media (max-width: 768px) {
+    .header h1 {
+      font-size: 1.8rem;
+    }
+  
+    .header p {
+      font-size: 0.9rem;
+    }
+  
+    .shop-btn,
+    .learn-btn {
+      font-size: 0.9rem;
+      padding: 8px 16px;
+    }
+  
+    .image-placeholder {
+      height: 200px;
+    }
+  }
+  
+  /* Extra small screens */
+  @media (max-width: 480px) {
+    .header h1 {
+      font-size: 1.5rem;
+    }
+  
+    .header p {
+      font-size: 0.8rem;
+    }
+  
+    .shop-btn,
+    .learn-btn {
+      font-size: 0.8rem;
+      padding: 6px 12px;
+    }
+  
+    .image-placeholder {
+      height: 150px;
+    }
+  }
+  
