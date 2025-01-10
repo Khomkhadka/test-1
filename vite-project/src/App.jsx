@@ -2,12 +2,13 @@
 import React from 'react';
 import NavBar from './NavBar.jsx';
 import Body from './Body.jsx';
-
+import Body2 from './Body2.jsx';
 function App() {
   return (
     <div>
       <NavBar />
       <Body/>
+      <Body2/>
         
       {/* <div id="home" style={{ padding: '50px', backgroundColor: '#f0f0f0' }}>
         <h1>Home Section</h1>

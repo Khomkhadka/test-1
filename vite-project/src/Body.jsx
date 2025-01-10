@@ -3,10 +3,14 @@ import "./Body.css";
 import image from "./ImageSlider"
 import ImageSlider from "./ImageSlider";
 
+import Body2 from "./Body2.jsx"
+
+
+
 function App() {
   return (
    
-    <div className="app-container">
+    <div className="app-container overflow-hidden mb-70">
       <header className="header">
         <h1>Discover the Perfect Paper for Every Project</h1>
         <p>
@@ -22,6 +26,8 @@ function App() {
         </div> */}
       </header>
       <ImageSlider/>
+      
+      {/* <Body2/> */}
     </div>
   );
 }

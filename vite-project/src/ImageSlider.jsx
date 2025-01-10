@@ -42,7 +42,7 @@ function ImageSlider() {
   };
 
   return (
-    <div className="slider-container">
+    <div className="slider-container overflow-hidden">
       <Slider {...settings}>
         {sliderImages.map((image) => (
           <div key={image.id} className="slider-item">
